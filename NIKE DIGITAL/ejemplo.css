@@ -1,0 +1,79 @@
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+  }
+
+  #arriba {
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagen/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+}
+
+
+  
+  div {
+      height: 1920px;
+      padding: 100px;
+      
+  }
+  
+  #cajaCentral { 
+  font-weight: lighter; 
+}
+  
+  h1 {
+      font-size: 48px;
+      font-weight: 100;
+  }
+  
+  h2 {
+      margin-bottom: 50px;
+  }
+  
+  p {
+      font-size: 24px;
+  }
+  
+  .fuentemenos {
+      font-size: 12px;
+      color: gray;    
+  }
+  
+  #creditos {
+      margin-top: 50px;   
+  }
+  
+ 
+  
+  ul {
+      list-style-type: none; 
+      padding-left: 0;
+  }
+  
+  li {
+      margin-top: 20px;    
+  }
+
+  #abajo {
+background-color: black;   
+color: whitesmoke;
+font-size: 25px;
+}
+
+ul#creditos a {
+    text-decoration: none;
+    color: black;
+}
+
+ul#creditos a[href="#"]:hover {
+    text-decoration: line-through;
+    color: red;
+}
+
+ul#creditos a[href]:not([href="#"]):hover {
+    text-decoration: underline;
+    color: rgb(11, 211, 226);
+}
