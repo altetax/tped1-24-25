@@ -1,0 +1,53 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(212, 0, 0);
+}
+
+h1 {
+    text-align: center;
+}
+
+#tipos {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#tipos div {
+    width: 30%;
+    height: 300px;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: rgb(0, 0, 0);
+}
+
+#tipo1 {
+    font-family: "Creepster", system-ui;
+}
+
+#tipo2 {
+    font-family: "Single Day", cursive; 
+}
+#tipo3 {
+    font-family: "Plaster", system-ui;
+}
+
+#tipo4 {
+    font-family: "Danfo", serif;
+}
+
+#tipo5 {
+    font-family: "Jacquard 12", system-ui;
+}
+
+#tipo6 {
+    font-family: "Silkscreen", sans-serif;
+}
