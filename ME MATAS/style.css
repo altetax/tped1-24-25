@@ -79,3 +79,6 @@ div.container {
 #piepagina a:hover {
     color: #ff0b0b;
 }
+.lb-image {
+    filter: none !important;
+}
