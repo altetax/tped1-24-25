@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT';
+    line-height: 1.6;
+    color: #000000;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #000000;
+    color: #fbff00;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    color: #fbff00;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #000000;
+    padding: 100px 20px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .project-grid {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .project {
+    flex: 1;
+    background: #fbff00;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  
+
+  @media (max-width: 390px) {
+    .hero {
+      padding: 50px 20px;
+      font-size: 0.9rem;
+    }
+    
+    .nav-links {
+      flex-direction: column;
+    }
+  }
+  
+
+  @media (max-width: 844px) and (orientation: landscape) {
+    .hero {
+      padding: 60px 20px;
+      font-size: 1rem;
+    }
+  
+    .project-grid {
+      flex-direction: column;
+    }
+  }
+  
+
+  @media (max-width: 820px) {
+    .hero {
+      padding: 80px 20px;
+      font-size: 1.2rem;
+    }
+  
+    .project-grid {
+      flex-wrap: wrap;
+    }
+  }
+  
+
+  @media (max-width: 1180px) and (orientation: landscape) {
+    .hero {
+      padding: 100px 20px;
+    }
+  
+    .project-grid {
+      flex-wrap: wrap;
+    }
+  }
+  
+ 
+  @media (max-width: 1440px) {
+    .hero {
+      font-size: 1.5rem;
+    }
+  }
+  
+  
+  @media (min-width: 1441px) {
+    .hero {
+      font-size: 2rem;
+    }
+  }
+  
