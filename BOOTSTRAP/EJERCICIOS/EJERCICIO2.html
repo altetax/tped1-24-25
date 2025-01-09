@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 2</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+    .container-fluid {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-content {
+        flex-grow: 1;
+        display: flex;
+    }
+
+    .navigation, .content {
+        height: 100%;
+        overflow-y: auto;
+    }
+</style>
 </head>
 <body>
     <div class="container-fluid">
@@ -18,7 +40,7 @@
     
         <div class="row">
             
-            <div class="col-3 bg-warning">
+            <div class="col-4 bg-warning">
                 <h2>Navegación</h2>
                 <p>Cuando zarpa el amor, navega a ciegas es quien lleva el timón, cuando sube la marea al corazón, sabe que el tiempo sopla a su favor. No podemos hacer nada por cambiar el rumbo que marcó para los dos, cuando zarpa el amor.</p>
             </div>
@@ -30,13 +52,10 @@
             </div>
         </div>
 
-        <div class="row">
+        
             <div class="col-12 bg-secondary">
-                <p>Pie de página</p>
+                <h2>Pie de página</h2>
             </div>
-        </div>
-    </div>
-
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
